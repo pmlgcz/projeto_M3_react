@@ -1,0 +1,28 @@
+.imgFooter {
+    width: 30px;
+    height: 30px;
+    border: none;
+    box-shadow: none;
+}
+
+.imgReactflixFooter {
+    width: 150px;
+    height: 150px;
+    border: none;
+    box-shadow: none;
+}
+
+.listaFooter {
+    display:flex;
+    gap: 10px;
+
+}
+.Footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ff0000;
+    color: #000000;
+    border-top: 1px solid var(--vermelhoClaro);
+    padding: 20px;
+}

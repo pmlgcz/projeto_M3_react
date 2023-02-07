@@ -1,0 +1,170 @@
+.container-modal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titulo-modal{
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+
+.modal-overlay {
+    background:rgb(0, 0, 0);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.7s;
+}
+
+.modal-content {
+    width: 95%;
+    height: 95%;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 6px ;
+}
+
+.button-close { 
+    display: flex;
+    border: 1px solid red;
+    background-color:rgba(0, 0, 0, 0.387);
+    padding: 10px 12%;
+    border-radius: 16px;
+    color: white;
+    text-transform: uppercase;
+    font-size: .8rem;
+    align-self: center;
+    transition:.3s;
+}
+.button-close:hover{
+    background-color:#B20710;
+    border: 1px solid white;
+}
+
+.infos-modal{
+    width: 100%;
+    height: 60%;
+    box-shadow: .1px .1px 10px black;  
+    border-radius: 6px;
+    border: 2px solid rgb(196, 33, 33);
+    margin-bottom: 1.5rem;
+    display: flex;
+    gap: 30px;
+    padding: 10px;
+    overflow-y: auto
+}
+.infos-modal img{
+    width: 50%;
+    height: 240px;
+    border: 1px solid white;
+    border-radius: 10px;
+    
+}
+
+.infos-modal p{
+    font-size: .7rem;
+}
+
+.img-filme img {
+    width: 100%;
+    height: 100%;
+}
+
+@media (min-width: 500px){
+    .infos-modal p{
+        font-size: 1.1rem;
+    }
+}
+@media (min-width: 850px){
+    .titulo-modal{
+        font-size: 2.4rem;
+    }
+    .infos-modal{
+        gap: 60px;
+    }
+    .infos-modal img{
+        width: 70%;
+        max-width: 320px;
+        height: 350px;
+    }
+}
+
+.formularioeditar{
+    background-color: white;
+    width: 100%;
+    font-size: 2.2rem;
+    border-block: 2px solid var(--vermelhoClaro);
+    text-align: center;
+    height: 350px;
+    padding-top: 20px;
+       
+}
+.btneditar{
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid rgb(255, 0, 0);
+    color: white;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: .3s;
+
+
+}
+.btneditar:hover{
+    background-color: rgb(255, 0, 0);
+    border: 1px solid white;
+}
+
+.formularioeditar div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+
+.containereditar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+label{
+    color: black;
+    font-size: 1.3rem;
+
+    
+}
+input{ 
+     color: black;
+     padding: 5px;
+     border: 1px solid red;
+     border-radius: 8px;
+     font-size: 1rem;
+
+}
+.newPost {
+    margin-block: 60px;
+    padding: 30px;
+    width: 100%;
+    border-block: 2px solid var(--vermelhoClaro);
+    text-align: center;
+    background-color: white;
+}
+.newPost h2{
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight:800;
+    margin-bottom: 30px;
+}
+
